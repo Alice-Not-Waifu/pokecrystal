@@ -20,4 +20,5 @@ PokedexTypeSearchStrings:
 	db "  DARK  @"
 	db " STEEL  @"
 	db " FAIRY  @"
+	db " SOUND  @"
 	assert_table_length NUM_TYPES + 1

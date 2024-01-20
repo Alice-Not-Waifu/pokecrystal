@@ -5,31 +5,48 @@
 @ mult-hit moves : 37.5% hits 2 or 3, 12,5% hit 4 or 5 -> 50% hit 3 , 25% hit 4, 12,5% hit 2 or 5
 @ double-hit status inducing moves : chance to inflict once and end of move -> each hit can inflict the status
 
+@ added sound type
+  effective against : phychic, ghost, steel
+  inefective against : normal, fighting, bug
+
+  resist against : water, rock, steel
+  weak against : normal, electric, fighting, bug
 -- pokemon type changes --
   
 @ blastoise : water -> water/steel
 @ butterfree : bug/flying -> bug/psychic
 @ sandslash : ground -> ground/steel
 @ ninetales: fire -> fire/fairy
+  jigglypuff: normal/fairy -> sound/fairy
+  wigglytuff: normal/fairy -> sound/fairy
 @ persian : normal -> normal/dark
 @ golduck : water -> water/psychic
 @ ponyta : fire -> fire/normal
 @ rapidash : fire -> fire/normal
 @ dodrio : normal/flying -> fighting/flying
 @ kingler : water -> water/rock
+@ electrode : electric -> electric/sound
 @ rhydon : ground/rock -> steel/rock
 @ kangaskhan : normal -> normal/fighting
 @ pinsir : bug -> bug/ground
+  lapras : water -> water/sound
 @ kabuto : rock/water -> bug/water
 @ kabutops : rock/water -> bug/water
 @ meganium : grass -> grass/fairy
 @ typlosion : fire -> fire/ground
 @ feraligatr : water -> water/dark
 @ noctowl : normal/flying -> psychic/flying
+  ledyba : bug/flying -> bug/sound
+  ledian : bug/flying -> bug/sound
+  igglybuff : normal/fairy -> sound/fairy
 @ ampharos : electric -> electric/dragon
-@ misdreavus : ghost -> ghost/fairy
+  bellossom : grass -> grass/sound
+  politoed : water -> sound/water
+  wooper : water/ground -> water/sound
+  misdreavus : ghost -> ghost/sound
 @ dunsparce : normal -> normal/ground
 @ granbull : fairy -> fairy/fighting
+  ursaring : normal -> normal/sound
 
 -- pokemon base stats -- 
                hp  atk  def  spd  sat  sdf
@@ -60,18 +77,25 @@
   psych up
 
 -- moves added --
+
 @ flower bloom : fairy | status | sharply raises attack and spe.attack, can only be used once.
 @ magma flow : ground | special | 40 power | hits twice, 25% to burn | 100% accuracy
 @ dive roll : dark | physical | 60 power | double damage if attack later | 100% accuracy
-@ hoove kick : normal | physical | 70 power | 20% to confuse ! 95% accuracy
+@ hoove kick : normal | physical | 50 power | 20% to confuse ! 95% accuracy
+
+-- moves re-typed --
+
+@ horn attack : normal -> rock
+@ double slap : normal -> fairy
+@ razor wind : normal -> flying
+@ skull bash: normal -> steel
+@ spike cannon: normal -> steel
 
 -- moves changes --
 
-@ double slap : normal -> fairy | 85% accuracy -> 100% accuracy
+@ double slap : 85% accuracy -> 100% accuracy
 
 @ commet punch : 18 power -> 25 power | 85% accuracy -> 100% accuracy
-  
-@ razor wind : normal -> flying
   
 @ cut : normal -> bug | normal hit -> high crit | 95% accuracy -> 100% accuracy
   
@@ -80,8 +104,6 @@
 @ slam : 75% accuracy -> 100% accuracy
   
 @ rolling kick : 85% accurate -> 100% accurate 
-  
-@ horn attack : normal -> rock
   
 @ fury attack : 85% accurate -> 100% accurate 
 
@@ -128,10 +150,6 @@
 @ bone club : 85% accuracy -> 100% accuracy
   
 @ clamp : 75% accuracy -> 100% accuracy
-  
-@ skull bash: normal -> steel
-  
-@ spike cannon: normal -> steel
   
 @ constrict : 10% lower speed -> 25% lower speed
   
