@@ -10,7 +10,7 @@ HiddenPowerDamage:
 
 ; Power:
 
-	ld d, 75
+	ld d, 60
 
 ; Type:
 
