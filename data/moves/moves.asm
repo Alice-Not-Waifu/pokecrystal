@@ -58,8 +58,8 @@ Moves:
 	move PIN_MISSILE,  EFFECT_MULTI_HIT,          20, BUG,           PHYSICAL, 100, 20,   0
 	move LEER,         EFFECT_DEFENSE_DOWN,        0, NORMAL,        STATUS,   100, 30,   0
 	move BITE,         EFFECT_FLINCH_HIT,         60, DARK,          PHYSICAL, 100, 25,  30
-	move GROWL,        EFFECT_ATTACK_DOWN,         0, SOUND,         STATUS,   100, 40,   0
-	move ROAR,         EFFECT_PARALYZE_HIT,       60, SOUND,         SPECIAL,  100, 20,  20 ; to be rewoked
+	move GROWL,        EFFECT_ATTACK_DOWN_HIT,    20, SOUND,         SPECIAL,  100, 40, 100
+	move ROAR,         EFFECT_PARALYZE_HIT,       60, SOUND,         SPECIAL,  100, 20,  20
 	move SING,         EFFECT_SLEEP,               0, SOUND,         STATUS,    55, 15,   0
 	move SUPERSONIC,   EFFECT_CONFUSE,             0, SOUND,         STATUS,    75, 20,   0
 	move SONICBOOM,    EFFECT_STATIC_DAMAGE,      20, SOUND,         SPECIAL,  100, 20,   0
@@ -168,7 +168,7 @@ Moves:
 	move CRABHAMMER,   EFFECT_NORMAL_HIT,         90, WATER,         PHYSICAL,  85, 10,   0
 	move EXPLOSION,    EFFECT_SELFDESTRUCT,      250, NORMAL,        PHYSICAL, 100,  5,   0
 	move FURY_SWIPES,  EFFECT_MULTI_HIT,          15, NORMAL,        PHYSICAL, 100, 15,   0
-	move BONEMERANG,   EFFECT_DOUBLE_HIT,         50, GROUND,        PHYSICAL,  90, 10,   0
+	move BONEMERANG,   EFFECT_DOUBLE_HIT,         50, GROUND,        PHYSICAL,  90, 10,   0 ; to be removed
 	move REST,         EFFECT_HEAL,                0, PSYCHIC_TYPE,  STATUS,   100, 10,   0
 	move ROCK_SLIDE,   EFFECT_FLINCH_HIT,         75, ROCK,          PHYSICAL,  90, 10,  30
 	move HYPER_FANG,   EFFECT_FLINCH_HIT,         80, NORMAL,        PHYSICAL, 100, 15,  10
