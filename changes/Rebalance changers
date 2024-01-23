@@ -17,8 +17,8 @@
 @ butterfree : bug/flying -> bug/psychic
 @ sandslash : ground -> ground/steel
 @ ninetales: fire -> fire/fairy
-  jigglypuff: normal/fairy -> sound/fairy
-  wigglytuff: normal/fairy -> sound/fairy
+@ jigglypuff: normal/fairy -> sound/fairy
+@ wigglytuff: normal/fairy -> sound/fairy
 @ persian : normal -> normal/dark
 @ golduck : water -> water/psychic
 @ ponyta : fire -> fire/normal
@@ -29,24 +29,24 @@
 @ rhydon : ground/rock -> steel/rock
 @ kangaskhan : normal -> normal/fighting
 @ pinsir : bug -> bug/ground
-  lapras : water -> water/sound
+@ lapras : water -> water/sound
 @ kabuto : rock/water -> bug/water
 @ kabutops : rock/water -> bug/water
 @ meganium : grass -> grass/fairy
 @ typlosion : fire -> fire/ground
 @ feraligatr : water -> water/dark
 @ noctowl : normal/flying -> psychic/flying
-  ledyba : bug/flying -> bug/sound
-  ledian : bug/flying -> bug/sound
-  igglybuff : normal/fairy -> sound/fairy
+@ ledyba : bug/flying -> bug/sound
+@ ledian : bug/flying -> bug/sound
+@ igglybuff : normal/fairy -> sound/fairy
 @ ampharos : electric -> electric/dragon
-  bellossom : grass -> grass/sound
-  politoed : water -> sound/water
-  wooper : water/ground -> water/sound
-  misdreavus : ghost -> ghost/sound
+@ bellossom : grass -> grass/sound
+@ politoed : water -> sound/water
+@ wooper : water/ground -> water/sound
+@ misdreavus : ghost -> ghost/sound
 @ dunsparce : normal -> normal/ground
 @ granbull : fairy -> fairy/fighting
-  ursaring : normal -> normal/sound
+@ ursaring : normal -> normal/sound
 
 -- pokemon base stats -- 
                hp  atk  def  spd  sat  sdf
@@ -102,6 +102,7 @@
 @ perish song : normal -> sound
 @ swagger : normal -> sound
 @ sleep talk : normal -> sound
+@ heal bell : normal -> sound
 @ encore : mormal -> sound
 
 -- moves changes --
