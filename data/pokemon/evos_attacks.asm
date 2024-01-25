@@ -601,6 +601,7 @@ ParasEvosAttacks:
 	db 13, POISONPOWDER
 	db 19, LEECH_LIFE
 	db 25, SPORE
+	db 29, FALSE_SWIPE
 	db 31, SLASH
 	db 37, GROWTH
 	db 43, GIGA_DRAIN
@@ -615,6 +616,7 @@ ParasectEvosAttacks:
 	db 13, POISONPOWDER
 	db 19, LEECH_LIFE
 	db 28, SPORE
+	db 34, FALSE_SWIPE
 	db 37, SLASH
 	db 46, GROWTH
 	db 55, GIGA_DRAIN
@@ -1407,7 +1409,7 @@ CuboneEvosAttacks:
 	db 13, HEADBUTT
 	db 17, LEER
 	db 21, FOCUS_ENERGY
-	db 25, BONEMERANG
+	db 25, ROCK_THROW
 	db 29, RAGE
 	db 33, FALSE_SWIPE
 	db 37, THRASH
@@ -1425,7 +1427,7 @@ MarowakEvosAttacks:
 	db 13, HEADBUTT
 	db 17, LEER
 	db 21, FOCUS_ENERGY
-	db 25, BONEMERANG
+	db 25, ROCK_THROW
 	db 32, RAGE
 	db 39, FALSE_SWIPE
 	db 46, THRASH
@@ -1739,7 +1741,7 @@ TaurosEvosAttacks:
 	db 4, TAIL_WHIP
 	db 8, RAGE
 	db 13, HORN_ATTACK
-	db 19, SCARY_FACE
+	db 19, HOOVE_KICK
 	db 26, PURSUIT
 	db 34, REST
 	db 43, THRASH
@@ -2245,12 +2247,14 @@ LedybaEvosAttacks:
 	db EVOLVE_LEVEL, 18, LEDIAN
 	db 0 ; no more evolutions
 	db 1, TACKLE
-	db 8, SUPERSONIC
-	db 15, COMET_PUNCH
-	db 22, LIGHT_SCREEN
-	db 22, REFLECT
+	db 4, SUPERSONIC
+	db 6, FURY_CUTTER
+	db 9, COMET_PUNCH
+	db 12, LIGHT_SCREEN
+	db 15, REFLECT
 	db 22, SAFEGUARD
-	db 29, BATON_PASS
+	db 26, BATON_PASS
+	db 30, TWINEEDLE
 	db 36, SWIFT
 	db 43, AGILITY
 	db 50, DOUBLE_EDGE
@@ -2260,11 +2264,13 @@ LedianEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, SUPERSONIC
-	db 8, SUPERSONIC
-	db 15, COMET_PUNCH
-	db 24, LIGHT_SCREEN
-	db 24, REFLECT
+	db 6, SUPERSONIC
+	db 9, FURY_CUTTER
+	db 12, COMET_PUNCH
+	db 15, LIGHT_SCREEN
+	db 18, REFLECT
 	db 24, SAFEGUARD
+	db 31, TWINEEDLE
 	db 33, BATON_PASS
 	db 42, SWIFT
 	db 51, AGILITY
@@ -2720,7 +2726,7 @@ GirafarigEvosAttacks:
 	db 1, TACKLE
 	db 1, GROWL
 	db 1, CONFUSION
-	db 1, STOMP
+	db 1, HOOVE_KICK
 	db 7, CONFUSION
 	db 13, STOMP
 	db 20, AGILITY
@@ -2826,6 +2832,8 @@ QwilfishEvosAttacks:
 	db 1, POISON_STING
 	db 10, HARDEN
 	db 10, MINIMIZE
+	db 14, PROTECT
+	db 17, TOXIC
 	db 19, WATER_GUN
 	db 28, PIN_MISSILE
 	db 37, TAKE_DOWN
@@ -2946,7 +2954,9 @@ SwinubEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 10, POWDER_SNOW
+	db 14, HORN_ATTACK
 	db 19, ENDURE
+	db 23, HOOVE_KICK
 	db 28, TAKE_DOWN
 	db 37, MIST
 	db 46, BLIZZARD
@@ -2959,7 +2969,9 @@ PiloswineEvosAttacks:
 	db 1, POWDER_SNOW
 	db 1, ENDURE
 	db 10, POWDER_SNOW
+	db 14, HORN_ATTACK
 	db 19, ENDURE
+	db 23, HOOVE_KICK
 	db 28, TAKE_DOWN
 	db 33, FURY_ATTACK
 	db 42, MIST
@@ -3116,7 +3128,7 @@ StantlerEvosAttacks:
 	db 1, TACKLE
 	db 8, LEER
 	db 15, HYPNOSIS
-	db 23, STOMP
+	db 23, HOOVE_KICK
 	db 31, SAND_ATTACK
 	db 40, TAKE_DOWN
 	db 49, CONFUSE_RAY
@@ -3235,7 +3247,7 @@ RaikouEvosAttacks:
 	db 21, ROAR
 	db 31, QUICK_ATTACK
 	db 41, SPARK
-	db 51, REFLECT
+	db 51, THUNDERBOLT
 	db 61, CRUNCH
 	db 71, THUNDER
 	db 0 ; no more level-up moves

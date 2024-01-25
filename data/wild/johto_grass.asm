@@ -1237,20 +1237,20 @@ JohtoGrassWildMons:
 	def_grass_wildmons ROUTE_29
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
+	db 3, HOPPIP
 	db 2, PIDGEY
 	db 2, SENTRET
 	db 3, PIDGEY
 	db 3, SENTRET
 	db 2, RATTATA
-	db 3, HOPPIP
 	db 3, HOPPIP
 	; day
+	db 3, HOPPIP
 	db 2, PIDGEY
 	db 2, SENTRET
 	db 3, PIDGEY
 	db 3, SENTRET
 	db 2, RATTATA
-	db 3, HOPPIP
 	db 3, HOPPIP
 	; nite
 	db 2, HOOTHOOT
@@ -1266,19 +1266,19 @@ JohtoGrassWildMons:
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	db 3, LEDYBA
+	db 4, HOPPIP
 	db 3, CATERPIE
 	db 4, CATERPIE
 	db 4, PIDGEY
 	db 3, WEEDLE
-	db 4, HOPPIP
 	db 4, HOPPIP
 	; day
 	db 3, PIDGEY
 	db 3, CATERPIE
-	db 4, CATERPIE
-	db 4, PIDGEY
 	db 3, WEEDLE
 	db 4, HOPPIP
+	db 4, CATERPIE
+	db 4, PIDGEY
 	db 4, HOPPIP
 	; nite
 	db 3, SPINARAK
@@ -1323,16 +1323,16 @@ JohtoGrassWildMons:
 	; morn
 	db 4, EKANS
 	db 5, RATTATA
-	db 7, BELLSPROUT
 	db 6, MAREEP
+	db 7, BELLSPROUT
 	db 7, PIDGEY
 	db 7, HOPPIP
 	db 7, HOPPIP
 	; day
 	db 4, EKANS
 	db 5, RATTATA
-	db 7, BELLSPROUT
 	db 6, MAREEP
+	db 7, BELLSPROUT
 	db 7, PIDGEY
 	db 7, HOPPIP
 	db 7, HOPPIP
@@ -1408,26 +1408,26 @@ JohtoGrassWildMons:
 	db 12, SNUBBULL
 	db 14, PIDGEY
 	db 13, GROWLITHE
+	db 12, YANMA
 	db 10, ABRA
 	db 12, JIGGLYPUFF
 	db 10, DITTO
-	db 12, YANMA
 	; day
 	db 12, SNUBBULL
 	db 14, PIDGEY
 	db 13, GROWLITHE
+	db 12, YANMA
 	db 10, ABRA
 	db 12, JIGGLYPUFF
 	db 10, DITTO
-	db 12, YANMA
 	; nite
 	db 12, DROWZEE
 	db 14, HOOTHOOT
 	db 13, PSYDUCK
+	db 12, YANMA
 	db 10, ABRA
 	db 12, JIGGLYPUFF
 	db 10, DITTO
-	db 12, YANMA
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_36
@@ -1657,15 +1657,15 @@ JohtoGrassWildMons:
 	def_grass_wildmons ROUTE_46
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
+	db 2, PHANPY
 	db 2, GEODUDE
 	db 2, SPEAROW
 	db 3, GEODUDE
 	db 3, RATTATA
-	db 2, PHANPY
 	db 2, RATTATA
 	db 2, RATTATA
 	; day
-	db 2, GEODUDE
+	db 2, PHANPY
 	db 2, SPEAROW
 	db 3, GEODUDE
 	db 3, RATTATA
@@ -1673,10 +1673,10 @@ JohtoGrassWildMons:
 	db 2, RATTATA
 	db 2, RATTATA
 	; nite
+	db 2, PHANPY
 	db 2, GEODUDE
 	db 2, RATTATA
 	db 3, GEODUDE
-	db 3, RATTATA
 	db 2, RATTATA
 	db 2, RATTATA
 	db 2, RATTATA

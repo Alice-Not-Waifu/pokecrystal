@@ -17,7 +17,7 @@ Moves:
 	move POUND,        EFFECT_NORMAL_HIT,         40, NORMAL,        PHYSICAL, 100, 35,   0
 	move KARATE_CHOP,  EFFECT_NORMAL_HIT,         50, FIGHTING,      PHYSICAL, 100, 25,   0
 	move DOUBLESLAP,   EFFECT_MULTI_HIT,          15, FAIRY,         PHYSICAL, 100, 10,   0
-	move COMET_PUNCH,  EFFECT_MULTI_HIT,          25, NORMAL,        PHYSICAL, 100, 15,   0
+	move COMET_PUNCH,  EFFECT_MULTI_HIT,          25, SOUND,         PHYSICAL, 100, 15,   0
 	move FLOWER_BLOOM, EFFECT_FLOWER_BLOOM,        0, FAIRY,         STATUS,   100, 10,   0 ; new move
 	move PAY_DAY,      EFFECT_PAY_DAY,            40, NORMAL,        PHYSICAL, 100, 20,   0
 	move FIRE_PUNCH,   EFFECT_BURN_HIT,           75, FIRE,          PHYSICAL, 100, 15,  10
@@ -58,7 +58,7 @@ Moves:
 	move PIN_MISSILE,  EFFECT_MULTI_HIT,          20, BUG,           PHYSICAL, 100, 20,   0
 	move LEER,         EFFECT_DEFENSE_DOWN,        0, NORMAL,        STATUS,   100, 30,   0
 	move BITE,         EFFECT_FLINCH_HIT,         60, DARK,          PHYSICAL, 100, 25,  30
-	move GROWL,        EFFECT_ATTACK_DOWN_HIT,    20, SOUND,         SPECIAL,  100, 40, 100
+	move GROWL,        EFFECT_ATTACK_DOWN_HIT,    40, SOUND,         SPECIAL,  100, 40, 100
 	move ROAR,         EFFECT_PARALYZE_HIT,       60, SOUND,         SPECIAL,  100, 20,  20
 	move SING,         EFFECT_SLEEP,               0, SOUND,         STATUS,    55, 15,   0
 	move SUPERSONIC,   EFFECT_CONFUSE,             0, SOUND,         STATUS,    75, 20,   0
@@ -145,7 +145,7 @@ Moves:
 	move SWIFT,        EFFECT_ALWAYS_HIT,         60, NORMAL,        SPECIAL,  100, 20,   0
 	move SKULL_BASH,   EFFECT_SKULL_BASH,        100, STEEL,         PHYSICAL, 100, 15,   0
 	move SPIKE_CANNON, EFFECT_MULTI_HIT,          20, STEEL,         PHYSICAL, 100, 15,   0
-	move CONSTRICT,    EFFECT_SPEED_DOWN_HIT,     10, NORMAL,        PHYSICAL, 100, 35,  25
+	move CONSTRICT,    EFFECT_SPEED_DOWN_HIT,     30, DARK,          PHYSICAL, 100, 35,  25
 	move AMNESIA,      EFFECT_SP_DEF_UP_2,         0, PSYCHIC_TYPE,  STATUS,   100, 20,   0
 	move KINESIS,      EFFECT_ACCURACY_DOWN_HIT,  60, PSYCHIC_TYPE,  SPECIAL,   80, 15,   0
 	move SOFTBOILED,   EFFECT_HEAL,                0, NORMAL,        STATUS,   100, 10,   0
@@ -161,7 +161,7 @@ Moves:
 	move BUBBLE,       EFFECT_SPEED_DOWN_HIT,     20, WATER,         SPECIAL,  100, 30,  10
 	move DIZZY_PUNCH,  EFFECT_CONFUSE_HIT,        70, NORMAL,        PHYSICAL, 100, 10,  20
 	move SPORE,        EFFECT_SLEEP,               0, GRASS,         STATUS,   100, 15,   0
-	move FLASH,        EFFECT_ACCURACY_DOWN,       0, NORMAL,        STATUS,    70, 20,   0
+	move FLASH,        EFFECT_ACCURACY_DOWN_HIT,  40, ELECTRIC,      SPECIAL,   70, 20,   0
 	move PSYWAVE,      EFFECT_MULTI_HIT,          30, PSYCHIC_TYPE,  SPECIAL,   80, 15,   0
 	move SPLASH,       EFFECT_SPLASH,              0, NORMAL,        STATUS,   100, 40,   0
 	move ACID_ARMOR,   EFFECT_DEFENSE_UP_2,        0, POISON,        STATUS,   100, 40,   0

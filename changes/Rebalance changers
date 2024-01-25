@@ -38,6 +38,8 @@
 @ noctowl : normal/flying -> psychic/flying
 @ ledyba : bug/flying -> bug/sound
 @ ledian : bug/flying -> bug/sound
+@ spinarak : bug/ghost -> bug/dark
+@ ariados : bug/ghost -> bug/dark
 @ igglybuff : normal/fairy -> sound/fairy
 @ ampharos : electric -> electric/dragon
 @ bellossom : grass -> grass/sound
@@ -50,6 +52,7 @@
 
 -- pokemon base stats -- 
                hp  atk  def  spd  sat  sdf
+@ beedrill   : 65,  80,  50,  80,  45,  80
 @ chikorita  : 45,  50,  65,  45,  50,  60
 @ bayleef    : 60,  60,  75,  70,  60,  80
 @ meganium   : 80,  85, 100,  80,  85, 100
@@ -59,6 +62,10 @@
 @ totodile   : 50,  65,  65,  40,  45,  50
 @ croconaw   : 65,  80,  80,  55,  60,  65
 @ feraligatr : 85, 105, 100,  75,  80,  85
+@ lediba     : 50,  20,  50,  55,  20,  80
+@ ledian     : 70,  50,  55,  80,  35, 110
+@ spinarak   : 40,  60,  65,  30,  40,  40
+@ ariados    : 70,  90,  70,  40,  60,  70
 
 -- moves removed --
 
@@ -97,6 +104,8 @@
 @ sonic boon : normal -> sound
 @ growth : normal -> grass
 @ screech : normal -> sound
+@ constrict : normal -> dark
+@ flash : normal -> electric
 @ snore : normal -> sound
 @ belly drumm : normal -> sound
 @ perish song : normal -> sound
@@ -142,6 +151,8 @@
 @ acid : 10% defence down -> 25% defence down
 
 @ submission : 80 power -> 100 power | 80% accuracy -> 100% accuracy
+
+@ flash : 0 power -> 40 power
   
 @ absorb : 20 power -> 30 power
   
@@ -167,7 +178,7 @@
   
 @ clamp : 75% accuracy -> 100% accuracy
   
-@ constrict : 10% lower speed -> 25% lower speed
+@ constrict : 10 power -> 30 power | 10% lower speed -> 25% lower speed
   
 @ kinesis : 0 power -> 60 power
 
