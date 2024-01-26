@@ -26,7 +26,7 @@ BattleAnimations::
 	dw BattleAnim_VineWhip
 	dw BattleAnim_Stomp
 	dw BattleAnim_DoubleKick
-	dw BattleAnim_MegaKick
+	dw BattleAnim_CrossPoison
 	dw BattleAnim_HooveKick
 	dw BattleAnim_RollingKick
 	dw BattleAnim_SandAttack
@@ -804,20 +804,20 @@ BattleAnim_RollingKick:
 	anim_wait 16
 	anim_ret
 
-BattleAnim_MegaKick:
-	anim_1gfx ANIM_GFX_HIT
-	anim_bgeffect ANIM_BG_SHAKE_SCREEN_X, $40, $2, $0
-	anim_wait 67
-	anim_bgeffect ANIM_BG_FLASH_INVERTED, $0, $8, $3
-.loop
-	anim_sound 0, 1, SFX_MEGA_KICK
-	anim_obj ANIM_OBJ_KICK, 136, 56, $0
-	anim_obj ANIM_OBJ_HIT_BIG_YFIX, 136, 56, $0
-	anim_wait 6
-	anim_obj ANIM_OBJ_KICK, 136, 56, $0
-	anim_wait 6
-	anim_loop 3, .loop
-	anim_ret
+;BattleAnim_MegaKick:
+;	anim_1gfx ANIM_GFX_HIT
+;	anim_bgeffect ANIM_BG_SHAKE_SCREEN_X, $40, $2, $0
+;	anim_wait 67
+;	anim_bgeffect ANIM_BG_FLASH_INVERTED, $0, $8, $3
+;.loop
+;	anim_sound 0, 1, SFX_MEGA_KICK
+;	anim_obj ANIM_OBJ_KICK, 136, 56, $0
+;	anim_obj ANIM_OBJ_HIT_BIG_YFIX, 136, 56, $0
+;	anim_wait 6
+;	anim_obj ANIM_OBJ_KICK, 136, 56, $0
+;	anim_wait 6
+;	anim_loop 3, .loop
+;	anim_ret
 
 BattleAnim_HyperFang:
 	anim_1gfx ANIM_GFX_HIT
@@ -4366,6 +4366,7 @@ BattleAnim_HiddenPower:
 	anim_wait 32
 	anim_ret
 
+BattleAnim_CrossPoison:
 BattleAnim_CrossChop:
 	anim_1gfx ANIM_GFX_CUT
 	anim_sound 0, 1, SFX_CUT

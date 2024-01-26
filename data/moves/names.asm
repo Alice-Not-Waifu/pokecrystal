@@ -24,7 +24,7 @@ MoveNames::
 	li "VINE WHIP"
 	li "STOMP"
 	li "DOUBLE KICK"
-	li "MEGA KICK"
+	li "CROSS POISON"
 	li "HOOVE KICK"
 	li "ROLLING KICK"
 	li "SAND-ATTACK"

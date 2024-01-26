@@ -25,7 +25,7 @@ MoveDescriptions::
 	dw VineWhipDescription
 	dw StompDescription
 	dw DoubleKickDescription
-	dw MegaKickDescription
+	dw CrossPoisonDescription
 	dw HooveKickDescription
 	dw RollingKickDescription
 	dw SandAttackDescription
@@ -362,9 +362,9 @@ DoubleKickDescription:
 	db   "A double kicking"
 	next "attack.@"
 
-MegaKickDescription:
-	db   "A powerful kicking"
-	next "attack.@"
+CrossPoisonDescription:
+	db   "Has a high criti-"
+	next "cal hit ratio.@"
 
 HooveKickDescription:
 	db   "A strong kick that"

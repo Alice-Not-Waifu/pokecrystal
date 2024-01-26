@@ -75,7 +75,7 @@
   horn drill
 @ bind
 @ mega punch
-  mega kick
+@ mega kick
 @ jump kick(this is NOT high jump kick)
   take down
   bonemerang
@@ -89,6 +89,7 @@
 @ magma flow : ground | special | 40 power | hits twice, 25% to burn | 100% accuracy
 @ dive roll : dark | physical | 60 power | double damage if attack later | 100% accuracy
 @ hoove kick : normal | physical | 50 power | 20% to confuse ! 95% accuracy
+@ cross poison : poison | physical | 70 power | high crit rate | 100% accuracy
 
 -- moves re-typed --
 
