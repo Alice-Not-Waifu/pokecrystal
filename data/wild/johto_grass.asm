@@ -397,29 +397,29 @@ JohtoGrassWildMons:
 	def_grass_wildmons RUINS_OF_ALPH_INNER_CHAMBER
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
-	db 5, UNOWN
-	db 5, UNOWN
-	db 5, UNOWN
-	db 5, UNOWN
-	db 5, UNOWN
-	db 5, UNOWN
-	db 5, UNOWN
+	db 15, UNOWN
+	db 15, UNOWN
+	db 15, UNOWN
+	db 15, UNOWN
+	db 15, UNOWN
+	db 15, UNOWN
+	db 15, UNOWN
 	; day
-	db 5, UNOWN
-	db 5, UNOWN
-	db 5, UNOWN
-	db 5, UNOWN
-	db 5, UNOWN
-	db 5, UNOWN
-	db 5, UNOWN
+	db 15, UNOWN
+	db 15, UNOWN
+	db 15, UNOWN
+	db 15, UNOWN
+	db 15, UNOWN
+	db 15, UNOWN
+	db 15, UNOWN
 	; nite
-	db 5, UNOWN
-	db 5, UNOWN
-	db 5, UNOWN
-	db 5, UNOWN
-	db 5, UNOWN
-	db 5, UNOWN
-	db 5, UNOWN
+	db 15, UNOWN
+	db 15, UNOWN
+	db 15, UNOWN
+	db 15, UNOWN
+	db 15, UNOWN
+	db 15, UNOWN
+	db 15, UNOWN
 	end_grass_wildmons
 
 	def_grass_wildmons UNION_CAVE_1F
@@ -1298,16 +1298,16 @@ JohtoGrassWildMons:
 	db 5, BELLSPROUT
 	db 5, PIDGEY
 	db 4, WEEDLE
-	db 5, HOPPIP
-	db 5, HOPPIP
+	db 5, DODUO
+	db 5, DODUO
 	; day
 	db 4, PIDGEY
 	db 4, CATERPIE
 	db 5, BELLSPROUT
 	db 5, PIDGEY
 	db 4, WEEDLE
-	db 5, HOPPIP
-	db 5, HOPPIP
+	db 5, DODUO
+	db 5, DODUO
 	; nite
 	db 4, SPINARAK
 	db 4, POLIWAG

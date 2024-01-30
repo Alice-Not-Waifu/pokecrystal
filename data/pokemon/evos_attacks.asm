@@ -170,10 +170,11 @@ BlastoiseEvosAttacks:
 	db 0 ; no more level-up moves
 
 CaterpieEvosAttacks:
-	db EVOLVE_LEVEL, 7, METAPOD
+	db EVOLVE_MOVE, HARDEN, METAPOD
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, STRING_SHOT
+	db 6, HARDEN
 	db 0 ; no more level-up moves
 
 MetapodEvosAttacks:
@@ -198,10 +199,12 @@ ButterfreeEvosAttacks:
 	db 0 ; no more level-up moves
 
 WeedleEvosAttacks:
-	db EVOLVE_LEVEL, 7, KAKUNA
+	db EVOLVE_MOVE, HARDEN, KAKUNA
 	db 0 ; no more evolutions
 	db 1, POISON_STING
 	db 1, STRING_SHOT
+	db 6, HARDEN
+	db 8, RAGE
 	db 0 ; no more level-up moves
 
 KakunaEvosAttacks:
@@ -220,7 +223,7 @@ BeedrillEvosAttacks:
 	db 25, RAGE
 	db 30, PURSUIT
 	db 35, PIN_MISSILE
-	db 40, AGILITY
+	db 40, CROSS_POISON
 	db 0 ; no more level-up moves
 
 PidgeyEvosAttacks:
